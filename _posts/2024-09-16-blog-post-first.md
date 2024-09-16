@@ -2,7 +2,7 @@
 
 ### Introduction
 
-![LOADING](https://github.com/TechDataMan/TechDataMan.github.io/blob/bb9760e3a31a65ba3d87173bf0fbdce110548ed5/_posts/_img/MILs.jpg)
+![MIL](https://github.com/TechDataMan/TechDataMan.github.io/blob/bb9760e3a31a65ba3d87173bf0fbdce110548ed5/_posts/_img/MILs.jpg)
 
 
 
