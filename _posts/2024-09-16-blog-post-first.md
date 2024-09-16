@@ -2,7 +2,7 @@
 
 ### Introduction
 
-![MIL](../_posts/_img/MILs.jpg)
+![Loading](../_posts/_img/Loading.png)
 
 _posts/_img/MILs.jpg
 
