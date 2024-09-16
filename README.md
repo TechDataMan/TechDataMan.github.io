@@ -1,3 +1,2 @@
-# TechDataMan's Blog
-
-LALA
+# TechDataMan.github.io
+TechDataMan's GitHub Blog
