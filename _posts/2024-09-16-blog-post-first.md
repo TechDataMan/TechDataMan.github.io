@@ -2,7 +2,7 @@
 
 ### Introduction
 
-![MIL](https://github.com/TechDataMan/TechDataMan.github.io/blob/main/_posts/_img/MILs.jpg)
+![MIL](../_posts/_img/MILs.jpg)
 
 _posts/_img/MILs.jpg
 
