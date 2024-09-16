@@ -1,1 +1,1 @@
-First BlogPost
+Today, everyone is talking about artificial intelligence and machine learning, but what exactly are they? As an engineer, I have chosen to be a lifelong learner and to embrace new technologies and apply them to specific problems. Here I show my way of approaching this current and complex topic and my first experiences in the application of artificial intelligence.
