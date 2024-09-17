@@ -2,7 +2,7 @@
 
 ## Introduction
 
-![Coding](https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/Loading.PNG?raw=true)
+![Coding](https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/01_Programmer.jpg?raw=true)
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
