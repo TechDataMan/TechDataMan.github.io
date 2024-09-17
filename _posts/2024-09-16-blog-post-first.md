@@ -21,6 +21,6 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 ## References
 This blog post is part of my [Udacity Data Scientist](https://www.udacity.com/course/data-scientist-nanodegree--nd025) Nanodegree program. To see more about this analysis, see the link to my [Github](https://github.com/TechDataMan/TechDataMan.github.io.git) available here.
 
-[StackOverFlow Survey 2017](https://survey.stackoverflow.co/2017)
+[StackOverFlow Survey 2024](https://survey.stackoverflow.co/2024)
 
 
