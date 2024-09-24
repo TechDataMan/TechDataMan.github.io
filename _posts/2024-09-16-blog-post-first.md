@@ -12,14 +12,19 @@ It is safe to assume that a solid education is essential to succeed in this comp
 
 In addition to formal training, knowledge of certain programming languages is of great importance. Programming languages make it possible to analyze complex data, develop models and gain valuable insights that are of great benefit to companies. Which programming languages should I learn?
 
-These questions need to be answered using [StackOverflow's annual user survey](https://survey.stackoverflow.co/2024). 
+These questions need to be answered using the [2024 StackOverflow's user survey](https://survey.stackoverflow.co/2024). 
 
 ### What education should I have?
-The data shows that the income of a data scientist worldwide is largely dependent on education. A university degree in relevant fields such as computer science, statistics or data science lays the foundation for a high income potential. Universities impart indispensable skills and knowledge that are highly valued on the job market. A strong academic foundation forms the basis for understanding complex algorithms and models used in data analysis.
+To answer the first question, let's look at Figure 1. The data shows that the income of a data scientist worldwide is largely dependent on education. A university degree in relevant fields such as computer science, statistics or data science lays the foundation for a high income potential. Universities impart indispensable skills and knowledge that are highly valued on the job market. A strong academic foundation forms the basis for understanding complex algorithms and models used in data analysis.
 
 <div align="center">
 	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_Education.png?raw=true">
 </div>
+<div align="center">
+	<i>Figure 1 – Histogram of the survey results in response to the question about the level of education required</i>
+	
+</div>
+</br>
 
 In addition, further education and the acquisition of certificates, such as in machine learning or big data technologies, are crucial to be successful in the job market. Educational qualifications and specific skills also help to stand out from the competition and secure challenging positions in leading companies worldwide.
 
@@ -29,6 +34,10 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 <div align="center">
 	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/03_Country.png?raw=true">
 </div>
+<div align="center">
+	<i>Figure 2 – Histogram of the survey results in response to the question about the country with the highest salary for university education</i>
+</div>
+</br>
 
 ### Which programming language should I learn?
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
@@ -36,6 +45,10 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 <div align="center">
 	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/04_Skills.png?raw=true">
 </div>
+<div align="center">
+	<i>Figure 3 – Histogram of survey results on the question of programming languages mastered depending on education and country</i>
+</div>
+</br>
 
 ## Conclusion
 You won't get rich as a data scientist - but you can definitely earn a good salary by combining a favorable location, solid training and mastery of essential programming languages. With these prerequisites, you can position yourself in an exciting and future-oriented professional field that offers not only financial returns, but also professional fulfillment.
