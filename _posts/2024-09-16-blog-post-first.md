@@ -15,11 +15,13 @@ In addition to formal training, knowledge of certain programming languages is of
 These questions need to be answered using [StackOverflow's annual user survey](https://survey.stackoverflow.co/2024). 
 
 ### What education should I have?
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+The data shows that the income of a data scientist worldwide is largely dependent on education. A university degree in relevant fields such as computer science, statistics or data science lays the foundation for a high income potential. Universities impart indispensable skills and knowledge that are highly valued on the job market. A strong academic foundation forms the basis for understanding complex algorithms and models used in data analysis.
 
 <div align="center">
 	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_Education.png?raw=true">
 </div>
+
+In addition, further education and the acquisition of certificates, such as in machine learning or big data technologies, are crucial to be successful in the job market. Educational qualifications and specific skills also help to stand out from the competition and secure challenging positions in leading companies worldwide.
 
 ### Where do I have to go?
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
@@ -38,7 +40,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 ## Conclusion
 You won't get rich as a data scientist - but you can definitely earn a good salary by combining a favorable location, solid training and mastery of essential programming languages. With these prerequisites, you can position yourself in an exciting and future-oriented professional field that offers not only financial returns, but also professional fulfillment.
 
-Many data scientists are highly educated. The usual educational path often begins with a bachelor's degree in computer science, mathematics, statistics or a related field. Many supplement their education with a master's degree or even a doctorate to deepen their expertise and improve their career opportunities. Learn the most important tools of a data scientist - the programming languages Python and SQL - and go out into the world for a high salary. Interesting countries include the USA, Singapore, Israel and Switzerland.
+Many data scientists are highly educated. The usual educational path often begins with a bachelor's degree in computer science, mathematics, statistics or a related field. Many supplement their education with a master's degree or even a doctorate to deepen their expertise and improve their career opportunities. Learn the most important tools of a Data Scientist - the programming languages Python and SQL - and go out into the world for a high salary. Interesting countries for Data Scientists are South Africa, USA, Singapore, Israel and Switzerland.
 
 ## References
 This blog post is part of my [Udacity Data Scientist](https://www.udacity.com/course/data-scientist-nanodegree--nd025) Nanodegree program. To see more about this analysis, see the link to my [Github](https://github.com/TechDataMan/BlogPost) available here.
