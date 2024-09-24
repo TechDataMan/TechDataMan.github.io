@@ -22,7 +22,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
 ## Conclusion
-In summary, achieving wealth as a data scientist can be greatly aided by the combination of a favorable location, solid education and mastery of essential programming languages. With these prerequisites, you can position yourself in an exciting and forward-thinking career field that offers not only financial returns but also professional fulfillment.
+You won't get rich as a data scientist - but you can definitely earn a good salary by combining a favorable location, solid training and mastery of essential programming languages. With these prerequisites, you can position yourself in an exciting and future-oriented professional field that offers not only financial returns, but also professional fulfillment.
 
 Many data scientists are highly educated. The usual educational path often begins with a bachelor's degree in computer science, mathematics, statistics or a related field. Many supplement their education with a master's degree or even a doctorate to deepen their expertise and improve their career opportunities.
 
