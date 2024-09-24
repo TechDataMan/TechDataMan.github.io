@@ -18,7 +18,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 ![Education](https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_Education.png?raw=true)
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_Education.png">
+  <img width="460" height="300" src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_Education.png?raw=true">
 </p>
 
 ### Where do I have to go?
