@@ -44,7 +44,8 @@ Judging by the analysis, South Africa also appears to be emerging as a major pla
 As can be seen from the analysis (Figure 3), a large number of well-paid and highly trained programmers are proficient in languages such as Python, SQL and HTML. These programming languages are of central importance, as they are the only ones that enable a wide range of tasks and analyses. 
 
 - Python is particularly popular due to its simplicity and the wide range of libraries available, such as Pandas, NumPy and SciPy, which facilitate data handling and analysis. 
-- SQL (Structured Query Language) is essential for accessing, editing and managing large databases as it enables efficient and complex data queries. Java offers robust and scalable programming, which is important for the development of real-time systems and sophisticated algorithms. 
+- SQL (Structured Query Language) is essential for accessing, editing and managing large databases as it enables efficient and complex data queries.
+- JAVA offers robust and scalable programming, which is important for the development of real-time systems and sophisticated algorithms. 
 - HTML (HyperText Markup Language) is critical for displaying and reporting data in web-based dashboards and reporting interfaces. 
 
 <div align="center">
