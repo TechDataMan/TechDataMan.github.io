@@ -41,7 +41,11 @@ If you look at the analysis (Figure 2), you can see that data scientists play a 
 Judging by the analysis, South Africa also appears to be emerging as a major player in data science. The increasing demand for qualified data scientists and the presumably limited supply of skilled workers is presumably leading to these high salaries in these regions.
 
 ### Which programming language should I learn?
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+As can be seen from the analysis (Figure 3), a large number of well-paid and highly trained programmers are proficient in languages such as Python, SQL and HTML. These programming languages are of central importance, as they are the only ones that enable a wide range of tasks and analyses. 
+
+- Python is particularly popular due to its simplicity and the wide range of libraries available, such as Pandas, NumPy and SciPy, which facilitate data handling and analysis. 
+- SQL (Structured Query Language) is essential for accessing, editing and managing large databases as it enables efficient and complex data queries. Java offers robust and scalable programming, which is important for the development of real-time systems and sophisticated algorithms. 
+- HTML (HyperText Markup Language) is critical for displaying and reporting data in web-based dashboards and reporting interfaces. 
 
 <div align="center">
 	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/04_Skills.png?raw=true">
@@ -50,6 +54,8 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 	<i>Figure 3 – Histogram of survey results on the question of programming languages mastered depending on education and country</i>
 </div>
 <br>
+
+The interplay of these languages enables data scientists to create complex data pipelines, analyze data and effectively visualize and communicate the results. The high salaries in these regions are presumably the result of the high demand for skilled workers.
 
 ## Conclusion
 You won't get rich as a data scientist - but you can definitely earn a good salary by combining a favorable location, solid training and mastery of essential programming languages. With these prerequisites, you can position yourself in an exciting and future-oriented professional field that offers not only financial returns, but also professional fulfillment.
