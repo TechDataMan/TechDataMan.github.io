@@ -26,6 +26,8 @@ You won't get rich as a data scientist - but you can definitely earn a good sala
 
 Many data scientists are highly educated. The usual educational path often begins with a bachelor's degree in computer science, mathematics, statistics or a related field. Many supplement their education with a master's degree or even a doctorate to deepen their expertise and improve their career opportunities.
 
+You can earn high salaries, especially in countries such as the USA, Singapore, Israel or Switzerland.
+
 The most important tools of a data scientist include the programming languages Python and SQL.
 
 ## References
