@@ -24,11 +24,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 ## Conclusion
 You won't get rich as a data scientist - but you can definitely earn a good salary by combining a favorable location, solid training and mastery of essential programming languages. With these prerequisites, you can position yourself in an exciting and future-oriented professional field that offers not only financial returns, but also professional fulfillment.
 
-Many data scientists are highly educated. The usual educational path often begins with a bachelor's degree in computer science, mathematics, statistics or a related field. Many supplement their education with a master's degree or even a doctorate to deepen their expertise and improve their career opportunities.
-
-You can earn high salaries, especially in countries such as the USA, Singapore, Israel or Switzerland.
-
-The most important tools of a data scientist include the programming languages Python and SQL.
+Many data scientists are highly educated. The usual educational path often begins with a bachelor's degree in computer science, mathematics, statistics or a related field. Many supplement their education with a master's degree or even a doctorate to deepen their expertise and improve their career opportunities. Learn the most important tools of a data scientist - the programming languages Python and SQL - and go out into the world for a high salary. Interesting countries include the USA, Singapore, Israel and Switzerland.
 
 ## References
 This blog post is part of my [Udacity Data Scientist](https://www.udacity.com/course/data-scientist-nanodegree--nd025) Nanodegree program. To see more about this analysis, see the link to my [Github](https://github.com/TechDataMan/BlogPost) available here.
