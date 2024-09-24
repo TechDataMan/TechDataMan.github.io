@@ -1,6 +1,8 @@
 # How to get rich as a Data Scientist
 
-![Coding](https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/01_Programmer.jpg?raw=true)
+<div align="center">
+	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/01_Programmer.jpg?raw=true">
+</div>
 
 ## Introduction
 
@@ -14,12 +16,6 @@ These questions need to be answered using [StackOverflow's annual user survey](h
 
 ### What education should I have?
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-![Education](https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_Education.png?raw=true)
-
-<p align="center">
-  <img width="460" height="300" src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_Education.png?raw=true">
-</p>
 
 <div align="center">
 	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_Education.png?raw=true">
