@@ -22,7 +22,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 </p>
 
 <div align="center">
-	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_Education.png">
+	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_Education.png?raw=true">
 </div>
 
 ### Where do I have to go?
