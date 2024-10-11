@@ -23,7 +23,7 @@ To evaluate the classification results, common classification metrics from machi
 - Recall: This shows how good your model is at finding all the "true" messages. High recall means that your model missed very few "true" messages.
 - F1 score: This is a combined metric of precision and recall that provides a balanced measure of the model's performance. A high F1 score means your model performs well in both identifying true news and avoiding false alarms.
 
-
+As mentioned at the beginning, the focus is on the highest possible accuracy. The other metrics are also taken into account in the evaluations in order to obtain additional information on whether the algorithm performs well or poorly in terms of false positives and/or false negatives.
 
 # Analysis
 
