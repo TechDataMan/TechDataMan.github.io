@@ -11,16 +11,10 @@ Fake news detection is a crucial tool in today's information society, where the 
 
 The impact of fake news is far-reaching: it can influence elections, deepen social divisions and even lead to violent conflict. In light of these challenges, the ability to effectively recognize and combat fake news is becoming an indispensable part of media literacy. Automated fake news detection technologies, such as machine learning and natural language processing, play a key role by making it possible to analyze large amounts of data and quickly identify potential disinformation.
 
-
-
 ## Problem Statement
-The aim is to use the WELFake dataset [[2]](#ref2) to make a prediction about whether an article is real or fake information. For this purpose, machine learning and natural language processing algorithms are used. The aim is to achieve the highest possible accuracy.
+The aim is to use the WELFake dataset [[2]](#ref2) to make a prediction about whether an article is real or fake information. For this purpose, machine learning and natural language processing algorithms are used. The aim is to achieve the highest possible accuracy. The WELFake dataset was compiled for the development of algorithms for detecting fake news. This dataset contains 72,134 news articles with 35,028 real and 37,106 fake news. The dataset contains four columns: serial number (starting at 0); title (about the headline of the text message); text (about the content of the message); and label (0 = real and 1 = fake).
 
-The WELFake dataset was compiled for the development of algorithms for detecting fake news. This dataset contains 72,134 news articles with 35,028 real and 37,106 fake news. The dataset contains four columns: serial number (starting at 0); title (about the headline of the text message); text (about the content of the message); and label (0 = real and 1 = fake).
-
-To increase the accuracy of the model, additional input parameters are developed using feature engineering. Suitable input variables (features) are generated from the raw data (articles). Sometimes important information is not directly visible in the raw data. Feature engineering can help extract this information.
-
-The generated data set will then be classified using various algorithms. Afterwards, an attempt will be made to further increase the accuracy by means of parameter optimization.
+To increase the accuracy of the model, additional input parameters are developed using feature engineering. Suitable input variables (features) are generated from the raw data (articles). Sometimes important information is not directly visible in the raw data. Feature engineering can help extract this information. The generated data set will then be classified using various algorithms. Afterwards, an attempt will be made to further increase the accuracy by means of parameter optimization.
 
 ## Metrics
 
