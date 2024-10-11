@@ -14,9 +14,7 @@ The impact of fake news is far-reaching: it can influence elections, deepen soci
 The aim is to use the WELFake dataset [[2]](#ref2) to make a prediction about whether an article is real or fake information. The WELFake dataset was compiled for the development of algorithms for detecting fake news. This dataset contains 72k news articles with 35k real and 37k fake news. The dataset contains four columns: serial number (starting at 0); title (headline of the text message); text (content of the message); and label (0 = real and 1 = fake).
 
 ## Problem Statement
- For this purpose, machine learning and natural language processing algorithms are used. The aim is to achieve the highest possible accuracy. 
-
-To increase the accuracy of the model, additional input parameters are developed using feature engineering. Suitable input variables (features) are generated from the raw data (articles). Sometimes important information is not directly visible in the raw data. Feature engineering can help extract this information. The generated data set will then be classified using various algorithms. Afterwards, an attempt will be made to further increase the accuracy by means of parameter optimization.
+The problem to be solved is to predict the truthfulness of the available information. Machine learning and natural language processing algorithms are used for this. The goal is to achieve the highest possible accuracy. To increase the accuracy of the model, additional input parameters are developed using feature engineering. Suitable input variables (features) are generated from the raw data (articles). Sometimes important information is not directly visible in the raw data. Feature engineering can be used to extract this information. The generated dataset is then classified using various algorithms. An attempt is then made to further increase the accuracy using parameter optimization.
 
 ## Metrics
 
