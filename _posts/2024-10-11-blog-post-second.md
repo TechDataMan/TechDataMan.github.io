@@ -43,7 +43,20 @@ The WELFake dataset contains 72k news articles with 35k real and 37k fake news. 
 <br>
 
 
+<div align="center">
+	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_article/03_DistributionArticlesCleaned.png?raw=true" style="width: 80%; height: auto;">
+</div>
+<div align="center">
+	<i>Figure 1 – Histogram of the survey results in response to the question about the level of education required</i>
+</div>
+<br>
 
+
+
+
+## Methodolgy
+
+### Data Preprocessing
 
 <div align="center">
 	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_article/02_FeatureEngineering.png?raw=true">
@@ -52,11 +65,6 @@ The WELFake dataset contains 72k news articles with 35k real and 37k fake news. 
 	<i>Figure 2 – Histogram of the survey results in response to the question about the level of education required</i>
 </div>
 <br>
-
-
-## Methodolgy
-
-### Data Preprocessing
 
 ### Implementation
 
