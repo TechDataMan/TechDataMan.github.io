@@ -18,6 +18,11 @@ The problem to be solved is to predict the truthfulness of the available informa
 
 ## Metrics
 To evaluate the classification results, common classification metrics from machine learning [[3]](#ref3) are used. These are summarized using a classification report provided by the scikit-learn framework [[4]](#ref4) used.
+- Accuracy: This is the proportion of correctly classified messages (both true and false) out of the total number of messages. A high accuracy means that your model is working well overall.
+- Precision: This indicates how many of the messages classified as "true" are actually true. High precision means that your model does not often classify "lies" as "true".
+- Recall: This shows how good your model is at finding all the "true" messages. High recall means that your model missed very few "true" messages.
+- F1 score: This is a combined metric of precision and recall that provides a balanced measure of the model's performance. A high F1 score means your model performs well in both identifying true news and avoiding false alarms.
+
 
 
 # Analysis
