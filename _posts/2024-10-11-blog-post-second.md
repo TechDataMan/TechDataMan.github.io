@@ -38,7 +38,7 @@ The WELFake dataset contains 72k news articles with 35k real and 37k fake news. 
 </div>
 <br>
 
-Additionally, a search was carried out for duplicates. 8416 duplicates were found and removed. Deduplication removes redundancies that can lead to bias results. Figure 2 shows the distribution of the cleaned data in classes 0 (REAL) and 1 (FAKE). 
+Additionally, a search was carried out for duplicates. 8416 duplicates were found and removed. Deduplication removes redundancies that can lead to bias results. Figure 2 shows the distribution of the cleaned data in classes 0 (REAL) and 1 (FAKE). Most of the duplicate records were found in the fake news class (8776 duplicates). After cleaning, the distribution is somewhat more uneven than before but still good enough for classification.
 
 <div align="center">
 	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_article/03_DistributionArticlesCleaned.png?raw=true" style="width: 80%; height: auto;">
