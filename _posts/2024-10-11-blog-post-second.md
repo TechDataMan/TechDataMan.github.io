@@ -1,4 +1,4 @@
-# How news influences our world
+# Fake News: The Art of Deception in the Digital World
 
 <div align="center">
 	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/01_Programmer.jpg?raw=true">
