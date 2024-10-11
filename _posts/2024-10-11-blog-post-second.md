@@ -35,10 +35,21 @@ The WELFake dataset contains four columns: serial number (starting at 0); title 
 ### Data Visualisation
 
 <div align="center">
-	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_article/02_FeatureEngineering.png?raw=true">
+	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_article/03_DistributionArticles.png?raw=true" style="width: 60%; height: auto;">
 </div>
 <div align="center">
 	<i>Figure 1 – Histogram of the survey results in response to the question about the level of education required</i>
+</div>
+<br>
+
+
+
+
+<div align="center">
+	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_article/02_FeatureEngineering.png?raw=true">
+</div>
+<div align="center">
+	<i>Figure 2 – Histogram of the survey results in response to the question about the level of education required</i>
 </div>
 <br>
 
