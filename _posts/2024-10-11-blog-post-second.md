@@ -66,6 +66,14 @@ The punctuation marks show a completely different distribution. Here it seems cl
 </div>
 <br>
 
+<div align="center">
+	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_article/02_FeatureEngineering.png?raw=true" style="width: 90%; height: auto;">
+</div>
+<div align="center">
+	<i>Figure 3 – Histogram of the engineered features</i>
+</div>
+<br>
+
 ### Implementation
 
 ### Refinement
