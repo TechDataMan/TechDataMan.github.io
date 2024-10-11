@@ -13,6 +13,6 @@ The impact of fake news is far-reaching: it can influence elections, deepen soci
 
 
 
-# References
+## References
 1. <a name="ref1">[Reuters Institute](https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2024/dnr-executive-summary)</a>
 2. <a name="ref2">[]()</a>
