@@ -1,4 +1,4 @@
-# Truths in the Shadow of Lies
+# Manipulation in the Web: How AI and Machine Learning Uncover Fake News!
 
 <div align="center">
 	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_article/01_FakeNews.jpg?raw=true">
