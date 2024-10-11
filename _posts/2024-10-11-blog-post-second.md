@@ -47,7 +47,7 @@ Figure 1 shows the distribution of the raw data in classes 0 (REAL) and 1 (FAKE)
 	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_article/03_DistributionArticlesCleaned.png?raw=true" style="width: 80%; height: auto;">
 </div>
 <div align="center">
-	<i>Figure 1 – Histogram of the survey results in response to the question about the level of education required</i>
+	<i>Figure 2 – Distribution of the cleaned data in classes 0 (REAL) and 1 (FAKE)</i>
 </div>
 <br>
 
