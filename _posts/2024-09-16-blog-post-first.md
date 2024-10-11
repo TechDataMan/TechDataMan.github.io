@@ -1,7 +1,7 @@
 # How to get rich as a Data Scientist
 
 <div align="center">
-	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/01_Programmer.jpg?raw=true">
+	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/01_article/01_Programmer.jpg?raw=true">
 </div>
 
 ## Introduction
@@ -18,7 +18,7 @@ These questions need to be answered using the [2024 StackOverflow's user survey]
 To answer the first question, let's look at Figure 1. The data shows that the income of a data scientist worldwide is largely dependent on education. A university degree in relevant fields such as computer science, statistics or data science lays the foundation for a high income potential. Universities impart indispensable skills and knowledge that are highly valued on the job market. A strong academic foundation forms the basis for understanding complex algorithms and models used in data analysis.
 
 <div align="center">
-	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_Education.png?raw=true">
+	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/01_article/02_Education.png?raw=true">
 </div>
 <div align="center">
 	<i>Figure 1 – Histogram of the survey results in response to the question about the level of education required</i>
@@ -31,7 +31,7 @@ In addition, further education and the acquisition of certificates, such as in m
 If you look at the analysis (Figure 2), you can see that data scientists play a decisive role, especially in industrialized countries such as USA or Switzerland. The main reason for this is the enormous amount of data that is generated every day. Companies in these regions have realized that analyzing data provides valuable insights that can support strategic decisions and improve business results. The complexity of data analysis requires specialized skills that data scientists possess. In developed countries, competition among companies is intense and the ability to use data effectively offers a decisive advantage. Data scientists help to optimize processes, reduce costs and identify new business opportunities. 
 
 <div align="center">
-	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/03_Country.png?raw=true">
+	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/01_article/03_Country.png?raw=true">
 </div>
 <div align="center">
 	<i>Figure 2 – Histogram of the survey results in response to the question about the country with the highest salary for university education</i>
@@ -49,7 +49,7 @@ As can be seen from the analysis (Figure 3), a large number of well-paid and hig
 - HTML (HyperText Markup Language) is critical for displaying and reporting data in web-based dashboards and reporting interfaces. 
 
 <div align="center">
-	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/04_Skills.png?raw=true">
+	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/01_article/04_Skills.png?raw=true">
 </div>
 <div align="center">
 	<i>Figure 3 – Histogram of survey results on the question of programming languages mastered depending on education and country</i>
