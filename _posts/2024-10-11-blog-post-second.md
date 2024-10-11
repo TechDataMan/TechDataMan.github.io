@@ -1,7 +1,7 @@
 # Truths in the Shadow of Lies
 
 <div align="center">
-	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/01_Programmer.jpg?raw=true">
+	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_article/01_FakeNews.jpg?raw=true">
 </div>
 
 ## Introduction
