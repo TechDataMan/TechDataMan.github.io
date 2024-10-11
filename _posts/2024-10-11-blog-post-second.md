@@ -74,6 +74,15 @@ The punctuation marks show a completely different distribution. Here it seems cl
 
 ### Model Evaluation and Validation
 
+<div align="center">
+	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_article/05_ConfusionMatrix.png?raw=true">
+</div>
+<div align="center">
+	<i>Figure 6 – Top 15 feature importance</i>
+</div>
+<br>
+
+
 Feature importance is a crucial concept in machine learning that is used to understand which features (or characteristics) of a dataset contribute most to predicting a target value. Analyzing feature importance helps interpret models, improve decision making, and optimize performance. This information can help identify irrelevant or redundant features, leading to better model performance and shorter training times. The output of feature importance is often presented in the form of numbers that represent the relative importance of the features. Higher values ​​indicate that the corresponding feature is more important for the prediction.
 
 Figure 6 shows the top 15 features and their importance. It can be seen that two of the engineered features are included in the top 15. This shows the importance of feature engineering to achieve higher model accuracy.
