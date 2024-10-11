@@ -74,6 +74,15 @@ The WELFake dataset contains 72k news articles with 35k real and 37k fake news. 
 
 ### Model Evaluation and Validation
 
+<div align="center">
+	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_article/06_FeatureImportance.png?raw=true">
+</div>
+<div align="center">
+	<i>Figure 2 – Histogram of the survey results in response to the question about the level of education required</i>
+</div>
+<br>
+
+
 ### Justification
 
 
