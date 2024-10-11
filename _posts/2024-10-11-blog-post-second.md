@@ -17,7 +17,7 @@ The aim is to use the WELFake dataset [[2]](#ref2) to make a prediction about wh
 The problem to be solved is to predict the truthfulness of the available information. Machine learning and natural language processing algorithms are used for this. The goal is to achieve the highest possible accuracy. To increase the accuracy of the model, additional input parameters are developed using feature engineering. Suitable input variables (features) are generated from the raw data (articles). Sometimes important information is not directly visible in the raw data. Feature engineering can be used to extract this information. The generated dataset is then classified using various algorithms. An attempt is then made to further increase the accuracy using parameter optimization.
 
 ## Metrics
-
+To evaluate the classification results, common classification metrics from machine learning [[3]](#ref3) are used. These are summarized using a classification report provided by the scikit-learn framework [[4]](#ref4) used.
 
 
 # Analysis
@@ -59,4 +59,5 @@ The problem to be solved is to predict the truthfulness of the available informa
 # References
 1. <a name="ref1">[Reuters Institute](https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2024/dnr-executive-summary)</a>
 2. <a name="ref2">[WELFake dataset for fake news detection in text data](https://zenodo.org/records/4561253)</a>
-3. <a name="ref3">[]()</a>
+3. <a name="ref3">[Classification Metrics | scikit-learn](https://scikit-learn.org/stable/modules/model_evaluation.html#accuracy-score)</a>
+4. <a name="ref4">[Classification Report Metrics | scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html)</a>
