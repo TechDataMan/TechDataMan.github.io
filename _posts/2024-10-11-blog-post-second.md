@@ -54,6 +54,9 @@ Additionally, a search was carried out for duplicates. 8416 duplicates were foun
 ## Methodolgy
 
 ### Data Preprocessing
+All distributions regarding word types (nouns, verbs, adjectives) show similar distributions. It can be seen, however, that there appear to be clear differences between real and fake articles. Especially in the area of ​​short sentences/few words, there is a strong exaggeration in the real articles. Even further on, the maxima between real and fake articles do not overlap.
+
+The punctuation marks show a completely different distribution. Here it seems clear that fake articles use significantly more punctuation marks than real articles.
 
 <div align="center">
 	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_article/02_FeatureEngineering.png?raw=true" style="width: 90%; height: auto;">
