@@ -56,10 +56,10 @@ Additionally, a search was carried out for duplicates. 8416 duplicates were foun
 ### Data Preprocessing
 
 <div align="center">
-	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_article/02_FeatureEngineering.png?raw=true">
+	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_article/02_FeatureEngineering.png?raw=true" style="width: 90%; height: auto;">
 </div>
 <div align="center">
-	<i>Figure 2 – Histogram of the survey results in response to the question about the level of education required</i>
+	<i>Figure 3 – Histogram of the engineered features</i>
 </div>
 <br>
 
