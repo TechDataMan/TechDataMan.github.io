@@ -28,7 +28,7 @@ As mentioned at the beginning, the focus is on the highest possible accuracy. Th
 ## Analysis
 
 ### Data Exploration
-The WELFake dataset contains four columns: serial number (starting at 0); title (headline of the text message); text (content of the message); and label (0 = real and 1 = fake).
+The WELFake dataset contains 72k news articles with 35k real and 37k fake news. There are four columns: serial number (starting at 0); title (headline of the text message); text (content of the message); and label (0 = real and 1 = fake). During the data exploration, it was determined that approximately 0.8 percent of the data in the 'title' column and 0.05% of the data in the 'text' column were missing. This concerns 597 data records which were excluded from further analysis. Additionally, a search was carried out for duplicates. 8416 duplicates were found and removed. Deduplication removes redundancies that can lead to bias results.
 
 
 
