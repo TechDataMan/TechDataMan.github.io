@@ -11,7 +11,7 @@ Fake news detection is a crucial tool in today's information society, where the 
 
 The impact of fake news is far-reaching: it can influence elections, deepen social divisions and even lead to violent conflict. In light of these challenges, the ability to effectively recognize and combat fake news is becoming an indispensable part of media literacy. Automated fake news detection technologies, such as machine learning and natural language processing, play a key role by making it possible to analyze large amounts of data and quickly identify potential disinformation.
 
-The aim is to use the WELFake dataset [[2]](#ref2) to make a prediction about whether an article is real or fake information. The WELFake dataset was compiled for the development of algorithms for detecting fake news. This dataset contains 72k news articles with 35k real and 37k fake news. The dataset contains four columns: serial number (starting at 0); title (about the headline of the text message); text (about the content of the message); and label (0 = real and 1 = fake).
+The aim is to use the WELFake dataset [[2]](#ref2) to make a prediction about whether an article is real or fake information. The WELFake dataset was compiled for the development of algorithms for detecting fake news. This dataset contains 72k news articles with 35k real and 37k fake news. The dataset contains four columns: serial number (starting at 0); title (headline of the text message); text (content of the message); and label (0 = real and 1 = fake).
 
 ## Problem Statement
  For this purpose, machine learning and natural language processing algorithms are used. The aim is to achieve the highest possible accuracy. 
