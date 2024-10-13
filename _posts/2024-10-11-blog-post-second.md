@@ -91,8 +91,6 @@ With the available computing power, it was not possible to use the entirety of t
 
 ## Results
 
-### Model Evaluation and Validation
-
 <div align="center">
 	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_article/05_ConfusionMatrix.png?raw=true" style="width: 85%; height: auto;">
 </div>
@@ -114,9 +112,6 @@ Figure 6 shows the top 15 features and their importance. It can be seen that two
 	<i>Figure 6 – Top 15 feature importance</i>
 </div>
 <br>
-
-
-### Justification
 
 
 ## Conclusion
