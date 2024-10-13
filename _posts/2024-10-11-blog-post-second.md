@@ -79,9 +79,15 @@ On the other hand, the isolated feature that shows no correlation could represen
 </div>
 <br>
 
-For the reasons presented, the correlated features were not used for training the models. Only the number of sentences and the number of punctuation marks were retained. The remaining features were discarded.
+For the reasons presented, the correlated features were not used for training the models. Only the number of sentences and the number of punctuation marks were retained. The remaining features were discarded. The extraction of features from the respective articles is a computationally intensive and extremely time-consuming process. Therefore, during the implementation, this step was initially tested only on selected articles and subsequently executed once. The data generated from this extraction was then written to a database to facilitate easy loading of the data from there.
 
-The extraction of features from the respective articles is a computationally intensive and extremely time-consuming process. Therefore, during the implementation, this step was initially tested only on selected articles and subsequently executed once. The data generated from this extraction was then written to a database to facilitate easy loading of the data from there.
+A key component of Natural Language Processing (NLP) is the conversion of text into a numerical form that can subsequently be processed by machine learning models. Two important steps are involved in this process:
+- First, the text is analyzed, and a document-feature matrix is created. In this matrix, the rows correspond to the articles and the columns to the recognized words. Each cell in the matrix contains the count of occurrences of a specific word in a document, allowing for straightforward counting of word frequencies.
+- Second, the matrix is further processed. Using the TF-IDF transformer, the raw frequencies are converted into TF-IDF values. TF-IDF stands for Term Frequency-Inverse Document Frequency and is a measure of how important a word is in a document relative to a corpus. It reduces the weight of common words that appear in many documents while giving greater importance to rarer words that are specific to a particular document.
+
+With the available computing power, it was not possible to use the entirety of the articles. For this reason, the number of articles was reduced to 2000. However, the statistical distribution between real and fake articles was preserved. When examining the input matrix for the algorithms, it becomes evident that there is a very large number of individual features. The matrix has approximately 45k columns after preprocessing, while the number of articles used has already been reduced to 2000. The reasons for this are manifold:
+- Linguistic Diversity: Differences in dialects, slang, and regional expressions can affect the consistency of the data.
+- Noise in the Data: Texts often contain noise, such as typos, irrelevant information or unstructured data.
 
 ## Results
 
