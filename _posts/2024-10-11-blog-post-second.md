@@ -98,7 +98,7 @@ Feature importance is a crucial concept in machine learning that is used to unde
 Figure 6 shows the top 15 features and their importance. It can be seen that two of the engineered features are included in the top 15. This shows the importance of feature engineering to achieve higher model accuracy.
 
 <div align="center">
-	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_article/06_FeatureImportance.png?raw=true">
+	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_article/06_FeatureImportance.png?raw=true" style="width: 60%; height: auto;">
 </div>
 <div align="center">
 	<i>Figure 6 – Top 15 feature importance</i>
