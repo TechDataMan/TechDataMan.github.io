@@ -48,18 +48,24 @@ Additionally, a search was carried out for duplicates. 8416 duplicates were foun
 </div>
 <br>
 
-## Methodolgy
+## Methodology
 
 ### Data Preprocessing
-All distributions regarding word types (nouns, verbs, adjectives) show similar distributions. It can be seen, however, that there appear to be clear differences between real and fake articles. Especially in the area of ​​short sentences/few words, there is a strong exaggeration in the real articles. Even further on, the maxima between real and fake articles do not overlap.
+In the previous section, we examined the data, removed obvious errors (NaNs), and eliminated duplicates. Natural language processing largely relies on breaking down sentences into individual words to count their frequencies. To enrich the dataset with additional features, various characteristics were extracted from the texts through feature engineering and stored as additional columns in the input matrix. The following features were generated: 
+- Number of sentences
+- Number of words
+- Number of verbs
+- Number of nouns
+- Number of adjectives and
+- Number of punctuation marks
 
-The punctuation marks show a completely different distribution. Here it seems clear that fake articles use significantly more punctuation marks than real articles.
+All distributions presented in Figure 3 regarding word types (nouns, verbs, adjectives) and sentence lengths show similar patterns. However, it is apparent that there are significant differences between real and fake articles. Particularly in the area of short sentences/few words, there is a strong overrepresentation in the real articles. Furthermore, the maxima between real and fake articles do not overlap. However, punctuation marks show a completely different distribution. It appears that fake articles use significantly more punctuation marks than real articles.
 
 <div align="center">
 	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_article/02_FeatureEngineering.png?raw=true" style="width: 90%; height: auto;">
 </div>
 <div align="center">
-	<i>Figure 3 – Histogram of the engineered features</i>
+	<i>Figure 3 – Histograms of the engineered features</i>
 </div>
 <br>
 
