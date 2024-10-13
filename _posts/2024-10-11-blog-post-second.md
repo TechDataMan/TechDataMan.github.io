@@ -84,11 +84,11 @@ On the other hand, the isolated feature that shows no correlation could represen
 ### Model Evaluation and Validation
 
 <div align="center">
-	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_article/05_ConfusionMatrix.png?raw=true">
+	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_article/05_ConfusionMatrix.png?raw=true" style="width: 85%; height: auto;">
 </div>
 <br>
 <div align="center">
-	<i>Figure 5 – The results of the three classifiers used in comparison</i>
+	<i>Figure 5 – The results of the four classifiers used in comparison</i>
 </div>
 <br>
 
