@@ -71,7 +71,7 @@ On the other hand, the isolated feature that shows no correlation could represen
 	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_article/03_CorrelationFeatureEngineering.png?raw=true" style="width: 50%; height: auto;">
 </div>
 <div align="center">
-	<i>Figure 3 – Histogram of the engineered features</i>
+	<i>Figure 4 – Correlation matrix of the engineered features</i>
 </div>
 <br>
 
