@@ -79,6 +79,10 @@ On the other hand, the isolated feature that shows no correlation could represen
 </div>
 <br>
 
+For the reasons presented, the correlated features were not used for training the models. Only the number of sentences and the number of punctuation marks were retained. The remaining features were discarded.
+
+The extraction of features from the respective articles is a computationally intensive and extremely time-consuming process. Therefore, during the implementation, this step was initially tested only on selected articles and subsequently executed once. The data generated from this extraction was then written to a database to facilitate easy loading of the data from there.
+
 ## Results
 
 ### Model Evaluation and Validation
@@ -114,6 +118,23 @@ Figure 6 shows the top 15 features and their importance. It can be seen that two
 ### Reflection
 
 ### Improvement
+
+<!--
+Feature Engineering im Kontext von Natural Language Processing (NLP) bringt mehrere Schwierigkeiten und Herausforderungen mit sich:
+
+1. **Textkomplexität**: Sprache ist vielschichtig und kontextabhängig. Die gleiche Phrase kann unterschiedliche Bedeutungen haben, abhängig von ihrem Kontext. Dies erschwert die Identifizierung relevanter Merkmale.
+2. **Sprachvielfalt**: Unterschiede in Dialekten, Slang und regionalen Ausdrücken können die Konsistenz der Daten beeinträchtigen und die Extraktion von Merkmalen erschweren.
+3. **Rauschen in den Daten**: Texte enthalten oft Rauschen, wie Tippfehler, irrelevante Informationen oder unstrukturierte Daten, die die Feature-Extraktion und die Modellleistung beeinträchtigen können.
+4. **Herausforderung bei der Auswahl von Merkmalen**: Es kann schwierig sein zu entscheiden, welche Merkmale tatsächlich relevant sind. Eine Überanpassung kann auftreten, wenn zu viele irrelevante Merkmale in das Modell einfließen.
+5. **Skalierung und Verarbeitung**: Die Verarbeitung großer Textmengen erfordert erhebliche Rechenressourcen. Die Extraktion von Merkmalen kann zeitaufwendig sein, insbesondere bei sehr großen Datensätzen.
+6. **Vektorisierung**: Der Prozess, Text in numerische Formate zu konvertieren (z. B. durch Bag-of-Words oder TF-IDF), kann Informationen verlieren und die Bedeutung des Textes verzerren.
+7. **Feature-Korrelation**: Merkmale können stark miteinander korreliert sein, was die Interpretation der Ergebnisse erschwert und zu Problemen bei der Modellierung führen kann.
+8. **Feature-Dimension**: Eine hohe Dimensionalität kann zu Überanpassung führen und die Rechenleistung erhöhen. Es ist oft notwendig, Techniken zur Dimensionsreduktion anzuwenden.
+9. **Semantische Bedeutung**: Die Herausforderung, semantische Beziehungen zwischen Wörtern und Phrasen zu erfassen, ist entscheidend, aber komplex. Die Verwendung von Word Embeddings oder anderen Methoden zur Erfassung von Bedeutungen kann notwendig sein.
+10. **Evaluation**: Die Bewertung der Wirksamkeit der extrahierten Merkmale ist entscheidend, erfordert jedoch oft spezifische Metriken und Techniken, um die Qualität der Merkmale zu bestimmen.
+
+Diese Herausforderungen erfordern sorgfältige Planung, Experimentieren und Anpassungen während des Feature Engineering-Prozesses, um die besten Ergebnisse in NLP-Anwendungen zu erzielen.
+-->
 
 ## References
 [1] <a name="ref1">[Reuters Institute](https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2024/dnr-executive-summary)</a><br>
