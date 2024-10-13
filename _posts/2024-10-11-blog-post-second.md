@@ -90,6 +90,11 @@ With the available computing power, it was not possible to use the entirety of t
 - Noise in the Data: Texts often contain noise, such as typos, irrelevant information or unstructured data.
 
 ## Results
+The choice of machine learning algorithms is crucial for the success of a model and depends on various factors. Firstly, the type of data and the specific problem to be solved are paramount. For classification tasks, such as distinguishing between real and fake news, algorithms like Naive Bayes and Support Vector Machines (SVM) are often suitable. Naive Bayes offers advantages due to its simplicity and speed, while SVMs provide robust performance in high-dimensional spaces.
+
+Another important aspect is the interpretability of the models. Algorithms like Logistic Regression are easy to understand and explain, which is beneficial when communicating results to stakeholders. Ensemble methods like AdaBoost or Random Forest can also perform well, especially with more complex datasets, as they combine multiple models and thereby reduce overfitting.
+
+Scalability and computational resources are also considerations. Some models require more computational power and time for training. Ultimately, the selection of algorithms should also be based on experimental results, making it advisable to try multiple models and compare their performance through cross-validation to identify the best model for the specific application. In Figure 5, the results of the algorithms used are displayed.
 
 <div align="center">
 	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_article/05_ConfusionMatrix.png?raw=true" style="width: 85%; height: auto;">
