@@ -86,6 +86,7 @@ On the other hand, the isolated feature that shows no correlation could represen
 <div align="center">
 	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_article/05_ConfusionMatrix.png?raw=true">
 </div>
+<br>
 <div align="center">
 	<i>Figure 5 – The results of the three classifiers used in comparison</i>
 </div>
