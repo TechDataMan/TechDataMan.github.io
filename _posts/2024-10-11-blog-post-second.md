@@ -27,7 +27,6 @@ As mentioned at the beginning, the focus is on the highest possible accuracy. Th
 
 ## Analysis
 
-### Data Exploration and Visualisation
 The WELFake dataset contains 72k news articles with 35k real and 37k fake news. There are four columns: serial number (starting at 0); title (headline of the text message); text (content of the message); and label (0 = real and 1 = fake). During the data exploration, it was determined that approximately 0.8 percent of the data in the 'title' column and 0.05% of the data in the 'text' column were missing. This concerns 597 data records which were excluded from further analysis. Figure 1 shows the distribution of the raw data in classes 0 (REAL) and 1 (FAKE). It is easy to see that it is roughly balanced.
 
 <div align="center">
@@ -50,7 +49,6 @@ Additionally, a search was carried out for duplicates. 8416 duplicates were foun
 
 ## Methodology
 
-### Data Preprocessing
 In the previous section, we examined the data, removed obvious errors (NaNs), and eliminated duplicates. Natural language processing largely relies on breaking down sentences into individual words to count their frequencies. To enrich the dataset with additional features, various characteristics were extracted from the texts through feature engineering and stored as additional columns in the input matrix. The following features were generated: 
 - Number of sentences
 - Number of words
@@ -69,7 +67,7 @@ All distributions presented in Figure 3 regarding word types (nouns, verbs, adje
 </div>
 <br>
 
-The heatmap showing the correlations between different features is an effective tool for visualizing the relationships within a dataset. Most of the evolved features are highly correlated with each other, while only a single feature shows no significant correlation. The following interpretations can be derived from this: First, the high correlation of most features suggests that they may represent similar information or patterns in the data. This may indicate redundancy, which means that some features may be redundant and could affect model performance.
+The heatmap in Figure 4 is showing the correlations between the different engineered features and is an effective tool for visualizing the relationships within a dataset. Most of the engineered features are highly correlated with each other, while only a single feature shows no significant correlation (Number of punctuation marks). The following interpretations can be derived from this: First, the high correlation of most features suggests that they may represent similar information or patterns in the data. This may indicate redundancy, which means that some features may be redundant and could affect model performance.
 
 On the other hand, the isolated feature that shows no correlation could represent a unique or independent variable that may provide important information not captured by other features. The analysis should therefore focus on understanding the importance of this feature in the context of the overall model and evaluating whether it may play an important role in certain predictions.
 
@@ -80,10 +78,6 @@ On the other hand, the isolated feature that shows no correlation could represen
 	<i>Figure 4 – Correlation matrix of the engineered features</i>
 </div>
 <br>
-
-### Implementation
-
-### Refinement
 
 ## Results
 
