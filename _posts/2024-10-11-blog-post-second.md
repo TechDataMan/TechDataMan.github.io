@@ -115,7 +115,7 @@ can also perform well, especially with more complex datasets, as they combine mu
 Model Optimization - VotingClassifier and AdaBoost GridSearch....
 
 <div align="center">
-	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_article/06_Optimization.png?raw=true" style="width: 80%; height: auto;">
+	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_article/06_Optimization.png?raw=true" style="width: 85%; height: auto;">
 </div>
 <br>
 <div align="center">
