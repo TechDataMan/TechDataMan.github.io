@@ -85,17 +85,23 @@ A key component of Natural Language Processing (NLP) is the conversion of text i
 - First, the text is analyzed, and a document-feature matrix is created. In this matrix, the rows correspond to the articles and the columns to the recognized words. Each cell in the matrix contains the count of occurrences of a specific word in a document, allowing for straightforward counting of word frequencies.
 - Second, the matrix is further processed. Using the TF-IDF transformer, the raw frequencies are converted into TF-IDF values. TF-IDF stands for Term Frequency-Inverse Document Frequency and is a measure of how important a word is in a document relative to a corpus. It reduces the weight of common words that appear in many documents while giving greater importance to rarer words that are specific to a particular document.
 
-With the available computing power, it was not possible to use the entirety of the articles. For this reason, the number of articles was reduced to 2000. The articles were chosen randomly - however, the statistical distribution between real and fake articles was maintained. When examining the input matrix for the algorithms, it becomes evident that there is a very large number of individual features. The matrix has approximately 45k columns after preprocessing, while the number of articles used has already been reduced to 2000. The reasons for this are manifold:
-- Linguistic Diversity: Differences in dialects, slang, and regional expressions can affect the consistency of the data.
-- Noise in the Data: Texts often contain noise, such as typos, irrelevant information or unstructured data.
+With the available computing power, it was not possible to use the entirety of the articles. For this reason, the number of articles was reduced to 2000. The articles were chosen randomly - however, the statistical distribution between real and fake articles was maintained. When examining the input matrix for the algorithms, it becomes evident that there is a very large number of individual features. The matrix has approximately 45k columns after preprocessing, while the number of articles used has already been reduced to 2000. The reasons for this are manifold. Linguistic Diversity: Differences in dialects, slang, and regional expressions can affect the consistency of the data. Noise in the Data: Texts often contain noise, such as typos, irrelevant information or unstructured data.
+
+The choice of machine learning algorithms is crucial for the success of a model and depends on various factors [[5]](#ref5). Firstly, the type of data and the specific problem to be solved are paramount. For classification tasks, such as distinguishing between real and fake news, algorithms like 
+- Naive Bayes and
+- Support Vector Machines (SVM)
+  
+are often suitable. Naive Bayes offers advantages due to its simplicity and speed, while SVMs provide robust performance in high-dimensional spaces. Another important aspect is the interpretability of the models. Algorithms like
+- Logistic Regression
+  
+are easy to understand and explain, which is beneficial when communicating results to stakeholders. Ensemble methods like
+- AdaBoost
+
+can also perform well, especially with more complex datasets, as they combine multiple models and thereby reduce overfitting. Scalability and computational resources are also considerations. Some models require more computational power and time for training. Ultimately, the selection of algorithms should also be based on experimental results, making it advisable to try multiple models and compare their performance through cross-validation to identify the best model for the specific application. All four algorithms will be implemented and compared against each other. The results will follow in the next chapter.
 
 ## Results
 
-The choice of machine learning algorithms is crucial for the success of a model and depends on various factors [[5]](#ref5). Firstly, the type of data and the specific problem to be solved are paramount. For classification tasks, such as distinguishing between real and fake news, algorithms like Naive Bayes and Support Vector Machines (SVM) are often suitable. Naive Bayes offers advantages due to its simplicity and speed, while SVMs provide robust performance in high-dimensional spaces.
-
-Another important aspect is the interpretability of the models. Algorithms like Logistic Regression are easy to understand and explain, which is beneficial when communicating results to stakeholders. Ensemble methods like AdaBoost or Random Forest can also perform well, especially with more complex datasets, as they combine multiple models and thereby reduce overfitting.
-
-Scalability and computational resources are also considerations. Some models require more computational power and time for training. Ultimately, the selection of algorithms should also be based on experimental results, making it advisable to try multiple models and compare their performance through cross-validation to identify the best model for the specific application. In Figure 5, the results of the algorithms used are displayed.
+ In Figure 5, the results of the algorithms used are displayed.
 
 <div align="center">
 	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_article/05_ConfusionMatrix.png?raw=true" style="width: 85%; height: auto;">
