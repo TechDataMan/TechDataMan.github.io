@@ -154,7 +154,7 @@ In summary, both the VotingClassifier and the optimized AdaBoost model achieve g
 
 Feature importance is a crucial concept in machine learning that is used to understand which features (or characteristics) of a dataset contribute most to predicting a target value. Analyzing feature importance helps interpret models, improve decision making, and optimize performance. This information can help identify irrelevant or redundant features, leading to better model performance and shorter training times. The output of feature importance is often presented in the form of numbers that represent the relative importance of the features. Higher values ​​indicate that the corresponding feature is more important for the prediction.
 
-Figure 7 shows the top 15 features and their importance. It can be seen that two of the engineered features are included in the top 15. This shows the importance of feature engineering to achieve higher model accuracy.
+Figure 7 shows the top 15 features and their importance. The two engineered features have emerged among the top 15 in feature importance, indicating their significant contribution to the model's performance. This success demonstrates the effectiveness of the feature engineering process in enhancing the classification capabilities of the models. By successfully integrating these features, we have improved our ability to distinguish between real and fake articles, validating the importance of thoughtful feature design.
 
 <div align="center">
 	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_article/07_FeatureImportance.png?raw=true" style="width: 60%; height: auto;">
@@ -163,7 +163,6 @@ Figure 7 shows the top 15 features and their importance. It can be seen that two
 	<i>Figure 7 – Top 15 feature importance</i>
 </div>
 <br>
-
 
 ## Conclusion
 
