@@ -178,6 +178,9 @@ Another important consideration is feature dimension. High dimensionality can le
 
 Finally, implementing user feedback mechanisms could refine the models by continuously learning from misclassifications and improving over time. The combination of these strategies could significantly enhance the effectiveness of automated systems for detecting fake news in an ever-evolving information landscape.
 
+## Acknowledges
+Special Thanks to [CERN - European Organization for Nuclear Research](https://zenodo.org/) for providing the data. This blog post is part of my [Udacity Data Scientist](https://www.udacity.com/course/data-scientist-nanodegree--nd025) Nanodegree program. If you are interested in the evaluation (Jupyter Notebook) you can find it on [Github](https://github.com/TechDataMan/FakeNews). Thank you for reading, and stay critical.
+
 ## References
 [1] <a name="ref1">[Reuters Institute](https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2024/dnr-executive-summary)</a><br>
 [2] <a name="ref2">[WELFake dataset for fake news detection in text data](https://zenodo.org/records/4561253)</a><br>
@@ -185,4 +188,3 @@ Finally, implementing user feedback mechanisms could refine the models by contin
 [4] <a name="ref4">[Classification Report Metrics | scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html)</a><br>
 [5] <a name="ref5">[Methods and Algorithms for Text Classification](https://www.elastic.co/de/what-is/text-classification)</a><br>
 
-<br>This blog post is part of my [Udacity Data Scientist](https://www.udacity.com/course/data-scientist-nanodegree--nd025) Nanodegree program. If you are interested in the evaluation (Jupyter Notebook) you can find it on [Github](https://github.com/TechDataMan/FakeNews). Thank you for reading, and stay critical.
