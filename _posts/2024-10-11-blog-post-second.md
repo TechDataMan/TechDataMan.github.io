@@ -172,22 +172,11 @@ The successful identification of engineered features among the top 15 in feature
 
 ### Improvement
 
-<!--
-Feature Engineering im Kontext von Natural Language Processing (NLP) bringt mehrere Schwierigkeiten und Herausforderungen mit sich:
+Although the current results demonstrate a respectable accuracy of around 90%, there are several approaches for further improvement. One promising strategy is the integration of sentiment analysis, which can provide deeper insights into the emotional tone of articles. By evaluating the sentiment of the content, models could identify patterns that distinguish real news from fake news, as fake articles often employ sensational language or emotional manipulation.
 
-1. **Textkomplexität**: Sprache ist vielschichtig und kontextabhängig. Die gleiche Phrase kann unterschiedliche Bedeutungen haben, abhängig von ihrem Kontext. Dies erschwert die Identifizierung relevanter Merkmale.
-2. **Sprachvielfalt**: Unterschiede in Dialekten, Slang und regionalen Ausdrücken können die Konsistenz der Daten beeinträchtigen und die Extraktion von Merkmalen erschweren.
-3. **Rauschen in den Daten**: Texte enthalten oft Rauschen, wie Tippfehler, irrelevante Informationen oder unstrukturierte Daten, die die Feature-Extraktion und die Modellleistung beeinträchtigen können.
-4. **Herausforderung bei der Auswahl von Merkmalen**: Es kann schwierig sein zu entscheiden, welche Merkmale tatsächlich relevant sind. Eine Überanpassung kann auftreten, wenn zu viele irrelevante Merkmale in das Modell einfließen.
-5. **Skalierung und Verarbeitung**: Die Verarbeitung großer Textmengen erfordert erhebliche Rechenressourcen. Die Extraktion von Merkmalen kann zeitaufwendig sein, insbesondere bei sehr großen Datensätzen.
-6. **Vektorisierung**: Der Prozess, Text in numerische Formate zu konvertieren (z. B. durch Bag-of-Words oder TF-IDF), kann Informationen verlieren und die Bedeutung des Textes verzerren.
-7. **Feature-Korrelation**: Merkmale können stark miteinander korreliert sein, was die Interpretation der Ergebnisse erschwert und zu Problemen bei der Modellierung führen kann.
-8. **Feature-Dimension**: Eine hohe Dimensionalität kann zu Überanpassung führen und die Rechenleistung erhöhen. Es ist oft notwendig, Techniken zur Dimensionsreduktion anzuwenden.
-9. **Semantische Bedeutung**: Die Herausforderung, semantische Beziehungen zwischen Wörtern und Phrasen zu erfassen, ist entscheidend, aber komplex. Die Verwendung von Word Embeddings oder anderen Methoden zur Erfassung von Bedeutungen kann notwendig sein.
-10. **Evaluation**: Die Bewertung der Wirksamkeit der extrahierten Merkmale ist entscheidend, erfordert jedoch oft spezifische Metriken und Techniken, um die Qualität der Merkmale zu bestimmen.
+Another important consideration is feature dimension. High dimensionality can lead to overfitting and increase computational demands. It is often necessary to apply dimensionality reduction techniques to streamline the feature set and enhance model performance.
 
-Diese Herausforderungen erfordern sorgfältige Planung, Experimentieren und Anpassungen während des Feature Engineering-Prozesses, um die besten Ergebnisse in NLP-Anwendungen zu erzielen.
--->
+Finally, implementing user feedback mechanisms could refine the models by continuously learning from misclassifications and improving over time. The combination of these strategies could significantly enhance the effectiveness of automated systems for detecting fake news in an ever-evolving information landscape.
 
 ## References
 [1] <a name="ref1">[Reuters Institute](https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2024/dnr-executive-summary)</a><br>
@@ -196,7 +185,4 @@ Diese Herausforderungen erfordern sorgfältige Planung, Experimentieren und Anpa
 [4] <a name="ref4">[Classification Report Metrics | scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html)</a><br>
 [5] <a name="ref5">[Methods and Algorithms for Text Classification](https://www.elastic.co/de/what-is/text-classification)</a><br>
 
-
-<br><br>This blog post is part of my [Udacity Data Scientist](https://www.udacity.com/course/data-scientist-nanodegree--nd025) Nanodegree program. If you are interested in the evaluation (Jupyter Notebook) you can find it on [Github](https://github.com/TechDataMan/FakeNews). Thank you for reading, and stay critical.
-
-
+<br>This blog post is part of my [Udacity Data Scientist](https://www.udacity.com/course/data-scientist-nanodegree--nd025) Nanodegree program. If you are interested in the evaluation (Jupyter Notebook) you can find it on [Github](https://github.com/TechDataMan/FakeNews). Thank you for reading, and stay critical.
