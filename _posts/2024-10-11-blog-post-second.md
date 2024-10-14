@@ -90,7 +90,8 @@ With the available computing power, it was not possible to use the entirety of t
 - Noise in the Data: Texts often contain noise, such as typos, irrelevant information or unstructured data.
 
 ## Results
-The choice of machine learning algorithms is crucial for the success of a model and depends on various factors. Firstly, the type of data and the specific problem to be solved are paramount. For classification tasks, such as distinguishing between real and fake news, algorithms like Naive Bayes and Support Vector Machines (SVM) are often suitable. Naive Bayes offers advantages due to its simplicity and speed, while SVMs provide robust performance in high-dimensional spaces.
+
+The choice of machine learning algorithms is crucial for the success of a model and depends on various factors [[5]](#ref5). Firstly, the type of data and the specific problem to be solved are paramount. For classification tasks, such as distinguishing between real and fake news, algorithms like Naive Bayes and Support Vector Machines (SVM) are often suitable. Naive Bayes offers advantages due to its simplicity and speed, while SVMs provide robust performance in high-dimensional spaces.
 
 Another important aspect is the interpretability of the models. Algorithms like Logistic Regression are easy to understand and explain, which is beneficial when communicating results to stakeholders. Ensemble methods like AdaBoost or Random Forest can also perform well, especially with more complex datasets, as they combine multiple models and thereby reduce overfitting.
 
@@ -147,6 +148,8 @@ Diese Herausforderungen erfordern sorgfältige Planung, Experimentieren und Anpa
 [2] <a name="ref2">[WELFake dataset for fake news detection in text data](https://zenodo.org/records/4561253)</a><br>
 [3] <a name="ref3">[Classification Metrics | scikit-learn](https://scikit-learn.org/stable/modules/model_evaluation.html#accuracy-score)</a><br>
 [4] <a name="ref4">[Classification Report Metrics | scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html)</a><br>
+[4] <a name="ref5">[Methods and Algorithms for Text Classification](https://www.elastic.co/de/what-is/text-classification)</a><br>
+
 
 <br><br>This blog post is part of my [Udacity Data Scientist](https://www.udacity.com/course/data-scientist-nanodegree--nd025) Nanodegree program. If you are interested in the evaluation (Jupyter Notebook) you can find it on [Github](https://github.com/TechDataMan/FakeNews). Thank you for reading, and stay critical.
 
