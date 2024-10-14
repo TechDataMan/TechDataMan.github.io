@@ -82,7 +82,7 @@ On the other hand, the isolated feature that shows no correlation could represen
 For the reasons presented, not all correlated features were used for training the models. Only the number of sentences and the number of punctuation marks were retained. The remaining features were discarded. The extraction of features from the respective articles is a computationally intensive and extremely time-consuming process. Therefore, during the implementation, this step was initially tested only on selected articles and subsequently executed once. The data generated from this extraction was then written to a database to facilitate easy loading of the data from there.
 
 A key component of Natural Language Processing (NLP) is the conversion of text into a numerical form that can subsequently be processed by machine learning models. Two important steps are involved in this process:
-- First, the text is analyzed, and a document-feature matrix is created. In this matrix, the rows correspond to the articles and the columns to the recognized words. Each cell in the matrix contains the count of occurrences of a specific word in a document, allowing for straightforward counting of word frequencies.
+- First, a document-feature matrix is created. In this matrix, the rows correspond to the articles and the columns to the recognized words. Each cell in the matrix contains the count of occurrences of a specific word in a document, allowing for straightforward counting of word frequencies.
 - Second, the matrix is further processed. Using the TF-IDF transformer, the raw frequencies are converted into TF-IDF values. TF-IDF stands for Term Frequency-Inverse Document Frequency and is a measure of how important a word is in a document relative to a corpus. It reduces the weight of common words that appear in many documents while giving greater importance to rarer words that are specific to a particular document.
 
 With the available computing power, it was not possible to use the entirety of the articles. For this reason, the number of articles was reduced to 2000. The articles were chosen randomly - however, the statistical distribution between real and fake articles was maintained. When examining the input matrix for the algorithms, it becomes evident that there is a very large number of individual features. The matrix has approximately 45k columns after preprocessing, while the number of articles used has already been reduced to 2000. The reasons for this are manifold. Linguistic Diversity: Differences in dialects, slang, and regional expressions can affect the consistency of the data. Noise in the Data: Texts often contain noise, such as typos, irrelevant information or unstructured data.
@@ -97,11 +97,23 @@ are often suitable. Naive Bayes offers advantages due to its simplicity and spee
 are easy to understand and explain, which is beneficial when communicating results to stakeholders. Ensemble methods like
 - AdaBoost
 
-can also perform well, especially with more complex datasets, as they combine multiple models and thereby reduce overfitting. Scalability and computational resources are also considerations. Some models require more computational power and time for training. Ultimately, the selection of algorithms should also be based on experimental results, making it advisable to try multiple models and compare their performance through cross-validation to identify the best model for the specific application. All four algorithms will be implemented and compared against each other. The results will follow in the next chapter.
+can also perform well, especially with more complex datasets, as they combine multiple models and thereby reduce overfitting. Scalability and computational resources are also considerations. Some models require more computational power and time for training. Ultimately, the selection of algorithms should also be based on experimental results, making it advisable to try multiple models and compare their performance through cross-validation to identify the best model for the specific application. All four algorithms will be implemented and compared against each other. The results are shown in the next chapter.
 
 ## Results
 
- In Figure 5, the results of the algorithms used are displayed.
+The results of the four tested classification models—Naive Bayes, AdaBoost, Logistic Regression, and Support Vector Machine (SVM) - provide interesting insights into the performance of each model in classifying the two categories: real articles (Label 0) and fake articles (Label 1). The results are shown in Figure 5.
+
+Naive Bayes
+The Naive Bayes model achieved an average accuracy (avg / total) of 0.84 for precision, recall, and F1-score. The results show that the model has a precision of 0.82 and a recall of 0.87 for real articles, while it achieves a precision of 0.85 and a recall of 0.80 for fake articles. These values suggest that the model is capable of correctly identifying a substantial number of relevant instances, although it shows some weaknesses in identifying fake articles, as the recall is lower in this case. Overall, the performance of Naive Bayes is solid but not outstanding.
+
+AdaBoost
+AdaBoost shows the best overall performance among the tested models, with an average precision, recall, and F1-score of 0.92. Notably, it has a high precision of 0.94 for real articles and also a high recall of 0.94 for fake articles. This means the model is able to make many correct positive predictions while also correctly classifying the majority of actual positive instances. AdaBoost thus appears to be a robust choice, especially when a balance between the two classes is required.
+
+Logistic Regression
+Logistic Regression shows similar results to the SVM, with an average F1-score of 0.89. For real articles, the precision is 0.92, while the recall is 0.86. For fake articles, the precision is 0.86 and the recall is 0.92. These values indicate that the model is relatively balanced, but it is somewhat weaker in identifying real articles. Logistic Regression provides a good foundation for classification but could be improved by applying more complex models like AdaBoost.
+
+Support Vector Machine (SVM)
+The SVM achieved identical results to Logistic Regression, suggesting that both models used similar approaches to separate the classes. Here, too, the precision for real articles is 0.92, with a recall of 0.86, while fake articles have a precision of 0.86 and a recall of 0.93. The SVM is known for its efficiency in high-dimensional spaces and also offers strong performance, but without the advantage of AdaBoost.
 
 <div align="center">
 	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_article/05_ConfusionMatrix.png?raw=true" style="width: 85%; height: auto;">
@@ -111,6 +123,8 @@ can also perform well, especially with more complex datasets, as they combine mu
 	<i>Figure 5 – The results of the four classifiers used in comparison</i>
 </div>
 <br>
+
+Overall, the results indicate that AdaBoost is the most powerful model in this analysis, followed by Naive Bayes, Logistic Regression, and SVM. While all models achieve respectable performance, it is crucial to consider the chosen model in the context of specific use cases and requirements, particularly regarding the prioritization of precision or recall depending on business or analytical goals. For instance, AdaBoost could be favored if minimizing misclassifications in both classes is critical.
 
 Model Optimization - VotingClassifier and AdaBoost GridSearch....
 
