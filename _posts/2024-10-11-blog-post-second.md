@@ -103,17 +103,13 @@ can also perform well, especially with more complex datasets, as they combine mu
 
 The results of the four tested classification models—Naive Bayes, AdaBoost, Logistic Regression, and Support Vector Machine (SVM) - provide interesting insights into the performance of each model in classifying the two categories: real articles (Label 0) and fake articles (Label 1). The results are shown in Figure 5.
 
-Naive Bayes
 The Naive Bayes model achieved an average accuracy (avg / total) of 0.84 for precision, recall, and F1-score. The results show that the model has a precision of 0.82 and a recall of 0.87 for real articles, while it achieves a precision of 0.85 and a recall of 0.80 for fake articles. These values suggest that the model is capable of correctly identifying a substantial number of relevant instances, although it shows some weaknesses in identifying fake articles, as the recall is lower in this case. Overall, the performance of Naive Bayes is solid but not outstanding.
 
-AdaBoost
 AdaBoost shows the best overall performance among the tested models, with an average precision, recall, and F1-score of 0.92. Notably, it has a high precision of 0.94 for real articles and also a high recall of 0.94 for fake articles. This means the model is able to make many correct positive predictions while also correctly classifying the majority of actual positive instances. AdaBoost thus appears to be a robust choice, especially when a balance between the two classes is required.
 
-Logistic Regression
 Logistic Regression shows similar results to the SVM, with an average F1-score of 0.89. For real articles, the precision is 0.92, while the recall is 0.86. For fake articles, the precision is 0.86 and the recall is 0.92. These values indicate that the model is relatively balanced, but it is somewhat weaker in identifying real articles. Logistic Regression provides a good foundation for classification but could be improved by applying more complex models like AdaBoost.
 
-Support Vector Machine (SVM)
-The SVM achieved identical results to Logistic Regression, suggesting that both models used similar approaches to separate the classes. Here, too, the precision for real articles is 0.92, with a recall of 0.86, while fake articles have a precision of 0.86 and a recall of 0.93. The SVM is known for its efficiency in high-dimensional spaces and also offers strong performance, but without the advantage of AdaBoost.
+The Support Vector Machine (SVM) achieved identical results to Logistic Regression, suggesting that both models used similar approaches to separate the classes. Here, too, the precision for real articles is 0.92, with a recall of 0.86, while fake articles have a precision of 0.86 and a recall of 0.93. The SVM is known for its efficiency in high-dimensional spaces and also offers strong performance, but without the advantage of AdaBoost.
 
 <div align="center">
 	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_article/05_ConfusionMatrix.png?raw=true" style="width: 85%; height: auto;">
