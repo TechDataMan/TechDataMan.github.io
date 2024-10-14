@@ -101,7 +101,7 @@ can also perform well, especially with more complex datasets, as they combine mu
 
 ## Results
 
-The results of the four tested classification models—Naive Bayes, AdaBoost, Logistic Regression, and Support Vector Machine (SVM) - provide interesting insights into the performance of each model in classifying the two categories: real articles (Label 0) and fake articles (Label 1). The results are shown in Figure 5.
+The results of the four tested classification models — Naive Bayes, AdaBoost, Logistic Regression, and Support Vector Machine (SVM) - provide interesting insights into the performance of each model in classifying the two categories: real articles (Label 0) and fake articles (Label 1). The results are shown in Figure 5.
 
 The Naive Bayes model achieved an average accuracy (avg / total) of 0.84 for precision, recall, and F1-score. The results show that the model has a precision of 0.82 and a recall of 0.87 for real articles, while it achieves a precision of 0.85 and a recall of 0.80 for fake articles. These values suggest that the model is capable of correctly identifying a substantial number of relevant instances, although it shows some weaknesses in identifying fake articles, as the recall is lower in this case. Overall, the performance of Naive Bayes is solid but not outstanding.
 
