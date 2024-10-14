@@ -124,7 +124,7 @@ Overall, the results indicate that AdaBoost is the most powerful model in this a
 
 ### Model optimization
 
-The results of the model parameter optimization reveal interesting advancements in classification accuracy and overall model performance. Two approaches were analyzed: the VotingClassifier, which combines the results of AdaBoost, Logistic Regression, and SVM, and the targeted optimization of the best individual algorithm, AdaBoost, through GridSearch.
+The results of the model parameter optimization reveal interesting advancements in classification accuracy and overall model performance (Figure 6). Two approaches were analyzed: the VotingClassifier, which combines the results of AdaBoost, Logistic Regression, and SVM, and the targeted optimization of the best individual algorithm, AdaBoost, through GridSearch.
 
 The VotingClassifier achieves an average precision, recall, and F1-score of 0.90. This indicates that the combination of the three models leads to robust performance. For the classification of real articles (Label 0), the VotingClassifier reaches a precision of 0.93 and a recall of 0.87. These values suggest that the model is capable of accurately identifying many real articles but is somewhat weaker in detecting fake articles (Label 1), with a precision of 0.87 and a recall of 0.93.
 
