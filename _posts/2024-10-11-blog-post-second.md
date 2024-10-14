@@ -7,6 +7,7 @@
 ## Project Definition
 
 ### Project Overview
+
 Fake news detection is a crucial tool in today's information society, where the spread of misinformation has increased [[1]](#ref1). In an era where social media and online platforms serve as primary news sources, distinguishing between truthful and false information is more important than ever. Fake news can distort public awareness, undermine trust in institutions and even interfere with democratic decision-making.
 
 The impact of fake news is far-reaching: it can influence elections, deepen social divisions and even lead to violent conflict. In light of these challenges, the ability to effectively recognize and combat fake news is becoming an indispensable part of media literacy. Automated fake news detection technologies, such as machine learning and natural language processing, play a key role by making it possible to analyze large amounts of data and quickly identify potential disinformation.
@@ -14,9 +15,11 @@ The impact of fake news is far-reaching: it can influence elections, deepen soci
 The aim is to use the WELFake dataset [[2]](#ref2) to make a prediction about whether an article is real or fake information. The WELFake dataset was compiled for the development of algorithms for detecting fake news. This dataset contains 72k news articles with 35k real and 37k fake news. 
 
 ### Problem Statement
+
 The problem to be solved is to predict the truthfulness of the available information. Machine learning and natural language processing algorithms are used for this. The goal is to achieve the highest possible accuracy. To increase the accuracy of the model, additional input parameters are developed using feature engineering. Suitable input variables (features) are generated from the raw data (articles). Sometimes important information is not directly visible in the raw data. Feature engineering can be used to extract this information. The generated dataset is then classified using various algorithms. An attempt is then made to further increase the accuracy using parameter optimization.
 
 ### Metrics
+
 To evaluate the classification results, common classification metrics from machine learning [[3]](#ref3) are used. These are summarized using a classification report provided by the scikit-learn framework [[4]](#ref4).
 - Accuracy: This is the proportion of correctly classified messages (both true and false) out of the total number of messages. A high accuracy means that your model is working well overall.
 - Precision: This indicates how many of the messages classified as "true" are actually true. High precision means that your model does not often classify "lies" as "true".
@@ -145,11 +148,6 @@ For fake articles, the precision remains at 0.88, indicating a slight deteriorat
 
 In summary, both the VotingClassifier and the optimized AdaBoost model achieve good results in classification, though neither shows drastic improvements compared to the original results of AdaBoost. The VotingClassifier provides robust performance, while the targeted optimization of AdaBoost has improved specific aspects of classification, albeit with some trade-offs.
 
-
-
-
-
-
 ### Feature importance
 
 Feature importance is a crucial concept in machine learning that is used to understand which features (or characteristics) of a dataset contribute most to predicting a target value. Analyzing feature importance helps interpret models, improve decision making, and optimize performance. This information can help identify irrelevant or redundant features, leading to better model performance and shorter training times. The output of feature importance is often presented in the form of numbers that represent the relative importance of the features. Higher values ​​indicate that the corresponding feature is more important for the prediction.
@@ -167,6 +165,10 @@ Figure 7 shows the top 15 features and their importance. The two engineered feat
 ## Conclusion
 
 ### Reflection
+
+In the fight against misinformation, the ability to effectively detect fake news using AI and machine learning has proven to be indispensable. This project highlights the importance of advanced techniques such as feature engineering and model optimization to improve the accuracy of fake news classification. The use of the WELFake dataset and various algorithms, including AdaBoost and VotingClassifier, demonstrates how ensemble methods can enhance performance by leveraging the strengths of multiple models.
+
+The successful identification of engineered features among the top 15 in feature importance underscores the effectiveness of these features in improving model predictions. Given the challenges that fake news poses to society, this study shows that automated systems can possess the ability to distinguish between real and fake news in an increasingly complex information landscape.
 
 ### Improvement
 
