@@ -122,6 +122,8 @@ The Support Vector Machine (SVM) achieved identical results to Logistic Regressi
 
 Overall, the results indicate that AdaBoost is the most powerful model in this analysis, followed by Naive Bayes, Logistic Regression, and SVM. While all models achieve respectable performance, it is crucial to consider the chosen model in the context of specific use cases and requirements, particularly regarding the prioritization of precision or recall depending on business or analytical goals. For instance, AdaBoost could be favored if minimizing misclassifications in both classes is critical.
 
+### Model optimization
+
 The results of the model parameter optimization reveal interesting advancements in classification accuracy and overall model performance. Two approaches were analyzed: the VotingClassifier, which combines the results of AdaBoost, Logistic Regression, and SVM, and the targeted optimization of the best individual algorithm, AdaBoost, through GridSearch.
 
 The VotingClassifier achieves an average precision, recall, and F1-score of 0.90. This indicates that the combination of the three models leads to robust performance. For the classification of real articles (Label 0), the VotingClassifier reaches a precision of 0.93 and a recall of 0.87. These values suggest that the model is capable of accurately identifying many real articles but is somewhat weaker in detecting fake articles (Label 1), with a precision of 0.87 and a recall of 0.93.
@@ -148,6 +150,7 @@ In summary, both the VotingClassifier and the optimized AdaBoost model achieve g
 
 
 
+### Feature importance
 
 Feature importance is a crucial concept in machine learning that is used to understand which features (or characteristics) of a dataset contribute most to predicting a target value. Analyzing feature importance helps interpret models, improve decision making, and optimize performance. This information can help identify irrelevant or redundant features, leading to better model performance and shorter training times. The output of feature importance is often presented in the form of numbers that represent the relative importance of the features. Higher values ​​indicate that the corresponding feature is more important for the prediction.
 
