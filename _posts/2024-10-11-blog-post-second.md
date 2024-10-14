@@ -27,7 +27,7 @@ As mentioned at the beginning, the focus is on the highest possible accuracy. Th
 
 ## Analysis
 
-The WELFake dataset contains 72k news articles with 35k real and 37k fake news. There are four columns: serial number (starting at 0); title (headline of the text message); text (content of the message); and label (0 = real and 1 = fake). During the data exploration, it was determined that approximately 0.8 percent of the data in the 'title' column and 0.05% of the data in the 'text' column were missing. This concerns 597 data records which were excluded from further analysis. Figure 1 shows the distribution of the raw data in classes 0 (REAL) and 1 (FAKE). It is easy to see that it is roughly balanced.
+The WELFake dataset [[2]](#ref2) contains 72k news articles with 35k real and 37k fake news. There are four columns: serial number (starting at 0); title (headline of the text message); text (content of the message); and label (0 = real and 1 = fake). During the data exploration, it was determined that approximately 0.8 percent of the data in the 'title' column and 0.05% of the data in the 'text' column were missing. This concerns 597 data records which were excluded from further analysis. Figure 1 shows the distribution of the raw data in classes 0 (REAL) and 1 (FAKE). It is easy to see that it is roughly balanced.
 
 <div align="center">
 	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_article/03_DistributionArticles.png?raw=true" style="width: 80%; height: auto;">
