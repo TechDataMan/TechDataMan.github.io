@@ -141,7 +141,7 @@ For fake articles, the precision remains at 0.88, indicating a slight deteriorat
 </div>
 <br>
 
-In summary, both the VotingClassifier and the optimized AdaBoost model achieve outstanding results in classification, though neither shows drastic improvements compared to the original results of AdaBoost. The VotingClassifier provides robust performance, while the targeted optimization of AdaBoost has improved specific aspects of classification, albeit with some trade-offs.
+In summary, both the VotingClassifier and the optimized AdaBoost model achieve good results in classification, though neither shows drastic improvements compared to the original results of AdaBoost. The VotingClassifier provides robust performance, while the targeted optimization of AdaBoost has improved specific aspects of classification, albeit with some trade-offs.
 
 
 
